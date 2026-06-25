@@ -1,5 +1,6 @@
-# Pricing Analytics & Revenue Optimization Platform
+# End-to-End Pricing Analytics & Revenue Optimization Platform
 ![Dashboard Preview](dashboard/powerbi_screenshots/page1_executive_summary.png)
+
 ## Project Overview
 
 This project is an end-to-end Pricing Analytics solution built using Python, PostgreSQL, SQL, Power BI, and DAX.
@@ -23,26 +24,13 @@ This project addresses these challenges through data analysis, SQL reporting, an
 
 ## Tech Stack
 
-### Programming & Analytics
-
-* Python
-* Pandas
-* NumPy
-
-### Database
-
-* PostgreSQL
-* SQLAlchemy
-
-### Business Intelligence
-
-* Power BI
-* DAX
-
-### Version Control
-
-* Git
-* GitHub
+| Category | Technologies |
+|----------|--------------|
+| Programming | Python, Pandas, NumPy |
+| Database | PostgreSQL, SQLAlchemy |
+| SQL | PostgreSQL SQL |
+| Visualization | Power BI, DAX |
+| Version Control | Git, GitHub |
 
 ---
 
@@ -51,6 +39,38 @@ This project addresses these challenges through data analysis, SQL reporting, an
 ![Project Architecture](diagrams/pricing_analytics_architecture.png)
 
 ---
+
+## Project Structure
+
+```text
+pricing-analytics-platform/
+│
+├── dashboard/
+│   ├── pricing_analytics_dashboard.pbix
+│   └── powerbi_screenshots/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── diagrams/
+│   └── pricing_analytics_architecture.png
+│
+├── reports/
+│
+├── sql/
+│   ├── create_tables.sql
+│   └── kpi_queries.sql
+│
+├── src/
+│   ├── data_generator.py
+│   ├── data_cleaning.py
+│   ├── db_load.py
+│   └── pricing_analysis.py
+│
+├── README.md
+└── requirements.txt
+```
 
 ## Key Features
 
@@ -94,18 +114,6 @@ This project addresses these challenges through data analysis, SQL reporting, an
 
 ---
 
-## Key Results
-
-| KPI              |   Value |
-| ---------------- | ------: |
-| Revenue          | $11.73M |
-| Gross Profit     |  $3.04M |
-| Gross Margin     |  25.90% |
-| Units Sold       |  37,450 |
-| Average Discount |  11.35% |
-
----
-
 ## Dashboard Screenshots
 
 ### Executive KPI Summary
@@ -122,24 +130,34 @@ This project addresses these challenges through data analysis, SQL reporting, an
 
 ---
 
-## Skills Demonstrated
+## Key Results
 
-* Python Data Analysis
-* SQL Querying
-* PostgreSQL
-* Power BI Dashboard Development
-* DAX Calculated Columns
-* Business KPI Reporting
-* Pricing Analytics
-* Financial Analysis
-* Executive Reporting
+| KPI              |   Value |
+| ---------------- | ------: |
+| Revenue          | $11.73M |
+| Gross Profit     |  $3.04M |
+| Gross Margin     |  25.90% |
+| Units Sold       |  37,450 |
+| Average Discount |  11.35% |
+
+---
+
+## How to Run
+
+1. Clone the repository.
+2. Install the required Python packages.
+3. Generate sample sales data.
+4. Clean and transform the data.
+5. Load the dataset into PostgreSQL.
+6. Execute the SQL scripts.
+7. Open the Power BI dashboard.
 
 ---
 
 ## Future Enhancements
 
-* Automated data refresh
-* Forecasting models
-* Price elasticity analysis
-* Customer segmentation
-* Revenue forecasting
+- Automated ETL pipeline
+- Revenue forecasting
+- Price elasticity analysis
+- Customer segmentation
+- Automated dashboard refresh
