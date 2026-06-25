@@ -48,23 +48,7 @@ This project addresses these challenges through data analysis, SQL reporting, an
 
 ## Project Architecture
 
-## Project Architecture
-
 ![Project Architecture](diagrams/pricing_analytics_architecture.png)
-
-### Data Flow
-
-Raw Sales Data
-↓
-Python ETL
-↓
-PostgreSQL
-↓
-SQL KPI Analysis
-↓
-Power BI Dashboard
-↓
-Business Insights
 
 ---
 
