@@ -1,5 +1,5 @@
 # Pricing Analytics & Revenue Optimization Platform
-
+![Dashboard Preview](dashboard/powerbi_screenshots/page1_executive_summary.png)
 ## Project Overview
 
 This project is an end-to-end Pricing Analytics solution built using Python, PostgreSQL, SQL, Power BI, and DAX.
